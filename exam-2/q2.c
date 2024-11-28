@@ -1,0 +1,17 @@
+//wap to in c to make such a pattern using the loop.
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+ int i,j;
+
+ for(i=1; i<=5; i++)
+ {
+  for(j=i; j<=5; j++)
+ {
+  printf("%d",i); 
+ }
+  printf("\n");
+ }
+}
